@@ -4,7 +4,8 @@ window.Alpine = Alpine;
 
 // importeren van alpine objecten
 import './home.js';
+import './project.js';
 
-console.log('app.js loaded');
+// console.log('app.js loaded');
 
 Alpine.start();

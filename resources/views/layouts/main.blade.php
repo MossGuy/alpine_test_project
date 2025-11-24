@@ -7,8 +7,8 @@
     @vite('resources/js/app.js')
     <title>Alpine test project</title>
 </head>
-<body>
-    <main>
+<body class="min-h-screen flex flex-col">
+    <main class="flex-grow">
         @yield('content')
     </main>
 </body>
